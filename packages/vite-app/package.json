@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vite-ui": "workspace:*"
+    "vite-ui": "workspace:*",
+    "style-dictionary": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
