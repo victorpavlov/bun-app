@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Build
-        run: bun run build
+        run: cd packages/vite-app/; bun run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
